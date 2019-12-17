@@ -6,7 +6,10 @@ export const config = {
     height: 600,
     physics: {
         default: 'arcade',
-        arcade: {}
+        arcade: {
+            gravity: { y:300 },
+            debug: false
+        }
     },
     scene: [MainScene],
     parent: 'game'
